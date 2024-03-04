@@ -1,0 +1,397 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+nav a{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  margin-top: 30px;
+}
+.logo{
+    margin-top: 20px;
+    font-size: 60px;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+nav a img{
+    width: 30px;
+    height: 30px;
+   float: right;
+}
+
+/* end of nav */
+/* start of content */
+.content{
+    width:100%;
+    height: 90vh;
+    display: flex;
+    position: relative;
+    background-color:rgb(243, 215, 178);
+}
+.content-left{
+    flex: 1;
+
+}
+.content-left img{
+    position: absolute;
+  
+    width: 110%;
+    height: 500px;
+    margin-left: -50px;
+   
+}
+.content-right{
+    flex: 1;
+ 
+
+}
+
+.content-left p{
+    font-family: 'Corinthia', cursive;
+font-family: 'Dancing Script', cursive;
+     margin-top: 250px;
+     margin-left: 220px;
+     font-size:150px;
+     z-index: 2;
+}
+.cnt-img1{
+    width: 300px;
+    height: 450px;
+position: absolute;
+margin-top: 100px;
+}
+.cnt-img{
+    width: 300px;
+    height: 450px;
+   margin-left: 150px;
+   margin-top: 50px;
+}
+.content-left h3{
+    font-size: 15px;
+    font-weight: 500;
+    font-style: oblique;
+    margin-left: 450px;
+    margin-top: -150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* end of content */
+/* start of about */
+.about-content{
+    width: 100%;
+    height: 80vh;
+    /* background-color: rgb(226, 188, 150); */
+    margin-top: 50px;
+    display: flex;
+}
+.about-left{
+    flex: 1;
+}
+.about-right{
+    flex: 1;
+}
+.bg{
+    width: 500px;
+    height: 400px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;    margin-top: 70px;
+
+}
+.about-title {
+font-size: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: black;
+margin-top: 50px;
+margin-left: 50px;
+font-style: italic;
+}
+.bg p{
+    width: 450px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin-left: 50px;
+word-spacing: 5px;
+}
+
+.about-img{
+    width: 280px;
+    height: 450px;
+ margin-left: 250px;
+   
+    margin-top: 10px;
+    
+}
+.dot{
+    width: 200px;
+    height: 200px;
+z-index: 1;
+margin-left: -450px;
+
+
+}
+/* end of about */
+/* start of work */
+.work{
+    width: 100%;
+    height: 100vh;
+display: flex;
+}
+.work-left{
+    flex: 1;
+}
+.work-right{
+    flex: 1;
+}
+.work-left img{
+    width: 450px;
+    height: 600px;
+    margin-left: 300px;
+    position: absolute;
+    margin-top: 50px;
+}
+.work-bg{
+    width: 500px;
+    height: 350px;
+    margin-top: 100px;
+    position: relative;
+    background-color: #F6E8B1;
+    position: absolute;
+}
+.work-bg h1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'La Belle Aurore', cursive;
+    margin-top: 50px;
+    text-align: center;
+}
+.work-bg p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+}
+.work-bg button{
+    width: 150px;
+    height: 30px;
+    color: beige;
+    background-color: black;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.work-bg button:hover{
+    width: 200px;
+    transition: all 1s ease-out;
+}
+/* end of work */
+/* start of passion */
+.passion{
+    width: 100%;
+    height: 80vh;
+ 
+    margin-top: 50px;
+}
+.passion-content{
+    display: flex;
+}
+.passion h1{
+    font-family: 'La Belle Aurore', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+.passion-card{
+    width: 250px;
+    height: 250px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;  margin: 100px;
+    
+}
+
+.passion-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.passion-card h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'La Belle Aurore', cursive;
+font-family: 'Pacifico', cursive;
+}
+/* end of passion */
+/* start blog */
+.blog{
+    width: 100%;
+    height: 200vh;
+    margin-top: 150px;
+   
+   
+}
+.blog h1{
+    text-align: center;
+    font-family: 'La Belle Aurore', cursive;
+    font-family: 'Pacifico', cursive;
+}
+.blog-content{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+.blog-card{
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px;
+}
+.blog-card-header img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog-card-body h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blog-card-body p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* end blog */
+
+/* testimonial */
+
+.testimonial{
+    width: 100%;
+    height: 60vh;
+    background-color: beige;
+position: relative;
+row-gap: 30px;
+overflow: hidden;
+}
+.details .name{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+.testimonial .slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.slide p{
+    text-align: center;
+    padding: 0 160px;
+    font-size: 14px;
+    font-weight: 400;
+   color: black;
+    width: 550px;
+}
+
+
+/* testimonial */
+/* connect */
+.connect{
+    width: 100%;
+    height: 50vh;
+}
+.connect h1{
+    text-align: center;
+    font-family: 'La Belle Aurore', cursive;
+}
+.connect-info{
+display: grid;
+grid-template-columns: auto auto;
+justify-content: center;
+justify-items: center;
+margin: 20px;
+gap: 20px;
+}
+.connect-btn{
+    width: 150px;
+    height: 30px;
+    border: 1px solid rgb(196, 160, 124);
+    background-color: rgb(196, 160, 124);
+    color: black;
+}
+.connect-info input{
+    width: 250px;
+    height: 50px;
+    border: 1px solid rgb(196, 160, 124);
+
+}
+.connect-info .message{
+    height: 80px;
+}
+.connect-btn:hover{
+    height: 50px;
+    transition: all 1s ease-in-out;
+}
+.details .name{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 20px;
+}
+.slide p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* connect */
+/* footer start */
+.footer
+{
+
+width: 100%;
+height: 10vh;
+background-color: rgb(196, 160, 124);
+display: flex;
+}
+.footer-left{
+    flex: 1;
+}
+.footer-center{
+    flex: 1;
+}
+.footer-right{
+    flex: 1;
+}
+.footer-right img{
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+
+    float: inline-end;
+}
+.footer-center img{
+    width: 30px;
+    height: 15px;
+
+}
+.footer-info{
+    display: flex;
+    margin: 20px;
+}
+.footer-info p{
+    margin-top: -5px;
+}
+
+.footer-left p{
+    font-family: 'Corinthia', cursive;
+font-family: 'Dancing Script', cursive;
+margin-top: 20px;
+margin-left: 50px;
+font-size: 30px;
+}
+/* footer end */

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work</title>
+    <link rel="stylesheet" href="./stylepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+           <a href="">logo</a> 
+        </div>
+        <div class="nav-center">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="work.html">My Work</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </div>
+       <div class="nav-right">
+        <a href=""><img src="./img/ii.png" alt=""></a>
+        <a href=""><img src="./img/f.png" alt=""></a>
+        <a href=""><img src="./img/tt.png" alt=""></a>
+       </div>
+    </nav>
+    <!-- end of nav -->
+
+<!-- start of design -->
+<div class="design">
+    <div class="design-bg">
+        <div class="des-bg">
+            <p class="title-p">No Talking, just WORK</p>
+            <h2 class="title-h2">Let Your Work Be The Best Answer To The Others</h2>
+        </div>
+       <img src="./img/b14.jpg" alt="">
+       <img src="./img/b15.jpg" alt="">
+       <img src="./img/b16.jpg" alt="">
+       <img src="./img/b17.jpg" alt="">
+    </div>
+</div>
+<!-- end of design -->
+<!-- start of gallery -->
+<h1 class="work-title">See My Work Gallery</h1>
+<div class="full-img" id="fullImgBox">
+    <img src="./img/3.jpg" alt="" id="fullImg">
+    <span onclick="closeFullImg()">x</span>
+</div>
+<div class="gallery">
+   <img src="./img/3.jpg" alt="" onclick="openFullImg(this.src)">
+   <img src="./img/4.jpg" alt="" onclick="openFullImg(this.src)">
+   <img src="./img/5.jpg" alt="" onclick="openFullImg(this.src)">
+   <img src="./img/6.jpg" alt="" onclick="openFullImg(this.src)">
+   <img src="./img/7.jpg" alt="" onclick="openFullImg(this.src)">
+   <img src="./img/11.jpg" alt="" onclick="openFullImg(this.src)">
+   
+   
+</div>
+<!-- end of gallery -->
+        <!-- footer start -->
+<div class="footer">
+    <div class="footer-left">
+        <div class="circle"><p>Isabelle</p> </div>
+    </div>
+    <div class="footer-center">
+        <div class="footer-info">
+            <img src="./img/cc.png" alt="">
+            <p>Copyright reserved</p> 
+        </div>
+        
+    </div>
+    <div class="footer-right">
+        <a href=""><img src="./img/ii.png" alt=""></a>
+        <a href=""><img src="./img/f.png" alt=""></a>
+        <a href=""><img src="./img/tt.png" alt=""></a>
+    </div>
+</div>
+    <!-- footer end -->
+    <script>
+        var fullImgBox = document.getElementById('fullImgBox');
+        var fullImg = document.getElementById("fullImg");
+
+        function openFullImg(pic)
+        {
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+        }
+        function closeFullImg(){
+            fullImgBox.style.display = "none";
+        }
+    </script>
+</body>
+</html>
